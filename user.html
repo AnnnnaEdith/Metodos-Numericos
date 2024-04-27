@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Usuario</title>
+</head>
+<body>
+    <h2>Subir Usuario</h2>
+    <form action="subir_usuario.php" method="post" enctype="multipart/form-data">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="foto">Seleccionar foto:</label><br>
+        <input type="file" id="foto" name="foto"><br><br>
+        <input type="submit" value="Subir Usuario">
+    </form>
+</body>
+</html>
